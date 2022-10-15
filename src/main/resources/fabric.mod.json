@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "lmkigt",
+  "version": "${version}",
+  "name": "LetMeKnowInGameTime",
+  "description": "Let me know ingame time!",
+  "authors": [
+    "Icetang0123"
+  ],
+  "contact": {
+    "issues": "https://github.com/gooddltmdqls/LetMeKnowInGameTime/issues",
+    "homepage": "https://github.com/gooddltmdqls/LetMeKnowInGameTime#readme",
+    "repo": "https://github.com/gooddltmdqls/LetMeKnowInGameTime"
+  },
+  "license": "MIT",
+  "icon": "assets/lmkigt/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "kr.icetang0123.letmeknowingametime.LetMeKnowInGameTime"
+    ],
+    "modmenu": [
+      "kr.icetang0123.letmeknowingametime.gui.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "LetMeKnowInGameTime.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
