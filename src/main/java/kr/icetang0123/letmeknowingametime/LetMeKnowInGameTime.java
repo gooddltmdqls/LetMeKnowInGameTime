@@ -15,8 +15,6 @@ import org.lwjgl.glfw.GLFW;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.swing.text.JTextComponent;
-
 @Environment(EnvType.CLIENT)
 public class LetMeKnowInGameTime implements ClientModInitializer {
     private static final ConfigSerializer serializer = new ConfigSerializer();
@@ -70,3 +68,5 @@ public class LetMeKnowInGameTime implements ClientModInitializer {
         });
     }
 }
+
+
